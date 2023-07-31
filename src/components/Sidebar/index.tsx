@@ -62,8 +62,8 @@ export const Sidebar = () => {
       </ul>
 
       <div className='w-full flex flex-col pl-14 mt-10 gap-y-1'>
-        <label className='color-dark-gray text-xs'>Criado com o Next.js</label>
-        <label className='color-dark-gray text-xs'>Ultima atualização: 30/08/2023</label>
+        <label className='text-dark-gray text-xs'>Criado com o Next.js</label>
+        <label className='text-dark-gray text-xs'>Ultima atualização: 30/08/2023</label>
       </div>
     </div>
   )
