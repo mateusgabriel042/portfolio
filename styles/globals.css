@@ -6,100 +6,100 @@
   color:#38bdf8;
 }
 
-.bg-dark-gray     {background-color:#9ba5b4;}
-.bg-gray-light    {background-color:#f4f6f8;}
-.bg-blue          {background-color:#38bdf8;}
-.bg-blue-light    {background-color:#ebf8fe;}
-.bg-pink          {background-color:#f472b6;}
-.bg-pink-2        {background-color:#e879f9;}
-.bg-purple        {background-color:#818cf8;}
-.bg-purple-2      {background-color:#a78bfa;}
-.bg-purple-light  {background-color:#e0e7ff;}
-.bg-green         {background-color:#50d67c;}
-.bg-orange        {background-color:#ff6c37;}
-.bg-white         {background-color:#ffffff;}
-.bg-black         {background-color:#2c3343;}
+.bg-dark-gray     {background-color:#9ba5b4 !important;}
+.bg-gray-light    {background-color:#f4f6f8 !important;}
+.bg-blue          {background-color:#38bdf8 !important;}
+.bg-blue-light    {background-color:#ebf8fe !important;}
+.bg-pink          {background-color:#f472b6 !important;}
+.bg-pink-2        {background-color:#e879f9 !important;}
+.bg-purple        {background-color:#818cf8 !important;}
+.bg-purple-2      {background-color:#a78bfa !important;}
+.bg-purple-light  {background-color:#e0e7ff !important;}
+.bg-green         {background-color:#50d67c !important;}
+.bg-orange        {background-color:#ff6c37 !important;}
+.bg-white         {background-color:#ffffff !important;}
+.bg-black         {background-color:#2c3343 !important;}
 
-.border-dark-gray     {border-color:#9ba5b4;}
-.border-gray-light    {border-color:#f4f6f8;}
-.border-blue          {border-color:#38bdf8;}
-.border-blue-light    {border-color:#ebf8fe;}
-.border-pink          {border-color:#f472b6;}
-.border-pink-2        {border-color:#e879f9;}
-.border-purple        {border-color:#818cf8;}
-.border-purple-2      {border-color:#a78bfa;}
-.border-purple-light  {border-color:#e0e7ff;}
-.border-green         {border-color:#50d67c;}
-.border-orange        {border-color:#ff6c37;}
-.border-white         {border-color:#ffffff;}
-.border-black         {border-color:#2c3343;}
+.border-dark-gray     {border-color:#9ba5b4 !important;}
+.border-gray-light    {border-color:#f4f6f8 !important;}
+.border-blue          {border-color:#38bdf8 !important;}
+.border-blue-light    {border-color:#ebf8fe !important;}
+.border-pink          {border-color:#f472b6 !important;}
+.border-pink-2        {border-color:#e879f9 !important;}
+.border-purple        {border-color:#818cf8 !important;}
+.border-purple-2      {border-color:#a78bfa !important;}
+.border-purple-light  {border-color:#e0e7ff !important;}
+.border-green         {border-color:#50d67c !important;}
+.border-orange        {border-color:#ff6c37 !important;}
+.border-white         {border-color:#ffffff !important;}
+.border-black         {border-color:#2c3343 !important;}
 
-.border-b-dark-gray     {border-bottom-color:#9ba5b4;}
-.border-b-gray-light    {border-bottom-color:#f4f6f8;}
-.border-b-blue          {border-bottom-color:#38bdf8;}
-.border-b-blue-light    {border-bottom-color:#ebf8fe;}
-.border-b-pink          {border-bottom-color:#f472b6;}
-.border-b-pink-2        {border-bottom-color:#e879f9;}
-.border-b-purple        {border-bottom-color:#818cf8;}
-.border-b-purple-2      {border-bottom-color:#a78bfa;}
-.border-b-purple-light  {border-bottom-color:#e0e7ff;}
-.border-b-green         {border-bottom-color:#50d67c;}
-.border-b-orange        {border-bottom-color:#ff6c37;}
-.border-b-white         {border-bottom-color:#ffffff;}
-.border-b-black         {border-bottom-color:#2c3343;}
+.border-b-dark-gray     {border-bottom-color:#9ba5b4 !important;}
+.border-b-gray-light    {border-bottom-color:#f4f6f8 !important;}
+.border-b-blue          {border-bottom-color:#38bdf8 !important;}
+.border-b-blue-light    {border-bottom-color:#ebf8fe !important;}
+.border-b-pink          {border-bottom-color:#f472b6 !important;}
+.border-b-pink-2        {border-bottom-color:#e879f9 !important;}
+.border-b-purple        {border-bottom-color:#818cf8 !important;}
+.border-b-purple-2      {border-bottom-color:#a78bfa !important;}
+.border-b-purple-light  {border-bottom-color:#e0e7ff !important;}
+.border-b-green         {border-bottom-color:#50d67c !important;}
+.border-b-orange        {border-bottom-color:#ff6c37 !important;}
+.border-b-white         {border-bottom-color:#ffffff !important;}
+.border-b-black         {border-bottom-color:#2c3343 !important;}
 
-.border-t-dark-gray     {border-top-color:#9ba5b4;}
-.border-t-gray-light    {border-top-color:#f4f6f8;}
-.border-t-blue          {border-top-color:#38bdf8;}
-.border-t-blue-light    {border-top-color:#ebf8fe;}
-.border-t-pink          {border-top-color:#f472b6;}
-.border-t-pink-2        {border-top-color:#e879f9;}
-.border-t-purple        {border-top-color:#818cf8;}
-.border-t-purple-2      {border-top-color:#a78bfa;}
-.border-t-purple-light  {border-top-color:#e0e7ff;}
-.border-t-green         {border-top-color:#50d67c;}
-.border-t-orange        {border-top-color:#ff6c37;}
-.border-t-white         {border-top-color:#ffffff;}
-.border-t-black         {border-top-color:#2c3343;}
+.border-t-dark-gray     {border-top-color:#9ba5b4 !important;}
+.border-t-gray-light    {border-top-color:#f4f6f8 !important;}
+.border-t-blue          {border-top-color:#38bdf8 !important;}
+.border-t-blue-light    {border-top-color:#ebf8fe !important;}
+.border-t-pink          {border-top-color:#f472b6 !important;}
+.border-t-pink-2        {border-top-color:#e879f9 !important;}
+.border-t-purple        {border-top-color:#818cf8 !important;}
+.border-t-purple-2      {border-top-color:#a78bfa !important;}
+.border-t-purple-light  {border-top-color:#e0e7ff !important;}
+.border-t-green         {border-top-color:#50d67c !important;}
+.border-t-orange        {border-top-color:#ff6c37 !important;}
+.border-t-white         {border-top-color:#ffffff !important;}
+.border-t-black         {border-top-color:#2c3343 !important;}
 
-.border-l-dark-gray     {border-left-color:#9ba5b4;}
-.border-l-gray-light    {border-left-color:#f4f6f8;}
-.border-l-blue          {border-left-color:#38bdf8;}
-.border-l-blue-light    {border-left-color:#ebf8fe;}
-.border-l-pink          {border-left-color:#f472b6;}
-.border-l-pink-2        {border-left-color:#e879f9;}
-.border-l-purple        {border-left-color:#818cf8;}
-.border-l-purple-2      {border-left-color:#a78bfa;}
-.border-l-purple-light  {border-left-color:#e0e7ff;}
-.border-l-green         {border-left-color:#50d67c;}
-.border-l-orange        {border-left-color:#ff6c37;}
-.border-l-white         {border-left-color:#ffffff;}
-.border-l-black         {border-left-color:#2c3343;}
+.border-l-dark-gray     {border-left-color:#9ba5b4 !important;}
+.border-l-gray-light    {border-left-color:#f4f6f8 !important;}
+.border-l-blue          {border-left-color:#38bdf8 !important;}
+.border-l-blue-light    {border-left-color:#ebf8fe !important;}
+.border-l-pink          {border-left-color:#f472b6 !important;}
+.border-l-pink-2        {border-left-color:#e879f9 !important;}
+.border-l-purple        {border-left-color:#818cf8 !important;}
+.border-l-purple-2      {border-left-color:#a78bfa !important;}
+.border-l-purple-light  {border-left-color:#e0e7ff !important;}
+.border-l-green         {border-left-color:#50d67c !important;}
+.border-l-orange        {border-left-color:#ff6c37 !important;}
+.border-l-white         {border-left-color:#ffffff !important;}
+.border-l-black         {border-left-color:#2c3343 !important;}
 
-.border-r-dark-gray     {border-right-color:#9ba5b4;}
-.border-r-gray-light    {border-right-color:#f4f6f8;}
-.border-r-blue          {border-right-color:#38bdf8;}
-.border-r-blue-light    {border-right-color:#ebf8fe;}
-.border-r-pink          {border-right-color:#f472b6;}
-.border-r-pink-2        {border-right-color:#e879f9;}
-.border-r-purple        {border-right-color:#818cf8;}
-.border-r-purple-2      {border-right-color:#a78bfa;}
-.border-r-purple-light  {border-right-color:#e0e7ff;}
-.border-r-green         {border-right-color:#50d67c;}
-.border-r-orange        {border-right-color:#ff6c37;}
-.border-r-white         {border-right-color:#ffffff;}
-.border-r-black         {border-right-color:#2c3343;}
+.border-r-dark-gray     {border-right-color:#9ba5b4 !important;}
+.border-r-gray-light    {border-right-color:#f4f6f8 !important;}
+.border-r-blue          {border-right-color:#38bdf8 !important;}
+.border-r-blue-light    {border-right-color:#ebf8fe !important;}
+.border-r-pink          {border-right-color:#f472b6 !important;}
+.border-r-pink-2        {border-right-color:#e879f9 !important;}
+.border-r-purple        {border-right-color:#818cf8 !important;}
+.border-r-purple-2      {border-right-color:#a78bfa !important;}
+.border-r-purple-light  {border-right-color:#e0e7ff !important;}
+.border-r-green         {border-right-color:#50d67c !important;}
+.border-r-orange        {border-right-color:#ff6c37 !important;}
+.border-r-white         {border-right-color:#ffffff !important;}
+.border-r-black         {border-right-color:#2c3343 !important;}
 
-.text-dark-gray     {color:#9ba5b4;}
-.text-gray-light    {color:#f4f6f8;}
-.text-blue          {color:#38bdf8;}
-.text-blue-light    {color:#ebf8fe;}
-.text-pink          {color:#f472b6;}
-.text-pink-2        {color:#e879f9;}
-.text-purple        {color:#818cf8;}
-.text-purple-2      {color:#a78bfa;}
-.text-purple-light  {color:#e0e7ff;}
-.text-green         {color:#50d67c;}
-.text-orange        {color:#ff6c37;}
-.text-white         {color:#ffffff;}
-.text-black         {color:#2c3343;}
+.text-dark-gray     {color:#9ba5b4 !important;}
+.text-gray-light    {color:#f4f6f8 !important;}
+.text-blue          {color:#38bdf8 !important;}
+.text-blue-light    {color:#ebf8fe !important;}
+.text-pink          {color:#f472b6 !important;}
+.text-pink-2        {color:#e879f9 !important;}
+.text-purple        {color:#818cf8 !important;}
+.text-purple-2      {color:#a78bfa !important;}
+.text-purple-light  {color:#e0e7ff !important;}
+.text-green         {color:#50d67c !important;}
+.text-orange        {color:#ff6c37 !important;}
+.text-white         {color:#ffffff !important;}
+.text-black         {color:#2c3343 !important;}
