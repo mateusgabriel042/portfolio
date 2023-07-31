@@ -4,10 +4,10 @@ import { DiGithubAlt } from "react-icons/di";
 
 export const Header = () => {
   return (
-    <div className="fixed flex justify-between top-0 right-0 w-[calc(100vw-300px)] h-[70px]">
+    <div className="fixed flex justify-between top-0 right-0 w-[calc(100vw-300px)] h-[80px]">
       <div className="flex flex-col gap-y-1 h-full justify-center">
-        <label className="text-dark-gray text-xs bold-light">Mateus Gabriel</label>
-        <span  className="text-black text-xs">Dev. Full Stack pleno</span>
+        <label className="text-dark-gray text-sm font-light">Mateus Gabriel</label>
+        <span  className="text-black text-sm font-light">Dev. Full Stack pleno</span>
       </div>
 
       <div className="flex items-center gap-x-2">
