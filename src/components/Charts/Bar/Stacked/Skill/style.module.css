@@ -1,0 +1,60 @@
+.left_10 {left:calc(10% - 40px); animation: show-left-10 0.3s ease-in-out 1;}
+.left_20 {left:calc(20% - 40px); animation: show-left-20 0.3s ease-in-out 1;}
+.left_30 {left:calc(30% - 40px); animation: show-left-30 0.3s ease-in-out 1;}
+.left_40 {left:calc(40% - 40px); animation: show-left-40 0.3s ease-in-out 1;}
+.left_50 {left:calc(50% - 40px); animation: show-left-50 0.3s ease-in-out 1;}
+.left_60 {left:calc(60% - 40px); animation: show-left-60 0.3s ease-in-out 1;}
+.left_70 {left:calc(70% - 40px); animation: show-left-70 0.3s ease-in-out 1;}
+.left_80 {left:calc(80% - 40px); animation: show-left-80 0.3s ease-in-out 1;}
+.left_90 {left:calc(90% - 40px); animation: show-left-90 0.3s ease-in-out 1;}
+.left_100 {left:calc(100% - 45px); animation: show-left-100 0.3s ease-in-out 1;}
+
+@keyframes show-left-10 {
+  from {left: 0px;}
+  to {left:calc(10% - 40px);}
+}
+
+@keyframes show-left-20 {
+  from {left: 0px;}
+  to {left:calc(20% - 40px);}
+}
+
+@keyframes show-left-30 {
+  from {left: 0px;}
+  to {left:calc(30% - 40px);}
+}
+
+@keyframes show-left-40 {
+  from {left: 0px;}
+  to {left:calc(40% - 40px);}
+}
+
+@keyframes show-left-50 {
+  from {left: 0px;}
+  to {left:calc(50% - 40px);}
+}
+
+@keyframes show-left-60 {
+  from {left: 0px;}
+  to {left:calc(60% - 40px);}
+}
+
+@keyframes show-left-70 {
+  from {left: 0px;}
+  to {left:calc(70% - 40px);}
+}
+
+@keyframes show-left-80 {
+  from {left: 0px;}
+  to {left:calc(80% - 40px);}
+}
+
+@keyframes show-left-90 {
+  from {left: 0px;}
+  to {left:calc(90% - 40px);}
+}
+
+@keyframes show-left-100 {
+  from {left: 0px;}
+  to {left:calc(100% - 50px);}
+}

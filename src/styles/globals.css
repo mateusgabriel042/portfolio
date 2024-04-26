@@ -6,14 +6,24 @@
   color:#38bdf8;
 }
 
-.shadow-main {
-  -webkit-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.29);
-  -moz-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.29);
-  box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.29);
-}
+.link_social_network {width:25px; height:25px; border-radius:100%; display:flex; justify-content:center; align-items:center; transition:0.5s; gap:5px; background-color:#ffffff; color:#878787; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);}
+.link_social_network span {font-size:13px; display: none;}
+.facebook_link_inside {width:100px; border-radius:7px; background-color:#1559a1; color:#ffffff; transition:0.5s;}
+.facebook_link_inside span {display:block;}
+.instagram_link_inside {width:100px; border-radius:7px; background-image: linear-gradient(to bottom right, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45); color:#ffffff; transition:0.5s;}
+.instagram_link_inside span {display:block;}
+.linkedin_link_inside {width:100px; border-radius:7px; background-color:#005f91; color:#ffffff; transition:0.5s;}
+.linkedin_link_inside span {display:block;}
+.github_link_inside {width:100px; border-radius:7px; background-color:#17202a; color:#ffffff; transition:0.5s;}
+.github_link_inside span {display:block;}
 
-.bg-dark-gray     {background-color:#9ba5b4 !important;}
-.bg-gray-light    {background-color:#f4f6f8 !important;}
+.border-b-1 {border-bottom:1px solid;}
+.border-t-1 {border-top:1px solid;}
+.border-l-1 {border-left:1px solid;}
+.border-r-1 {border-right:1px solid;}
+
+.bg-dark-gray     {background-color:#878787 !important;}
+.bg-gray-light    {background-color:#f5f5f5 !important;}
 .bg-blue          {background-color:#38bdf8 !important;}
 .bg-blue-light    {background-color:#ebf8fe !important;}
 .bg-pink          {background-color:#f472b6 !important;}
@@ -25,9 +35,24 @@
 .bg-orange        {background-color:#ff6c37 !important;}
 .bg-white         {background-color:#ffffff !important;}
 .bg-black         {background-color:#2c3343 !important;}
+.bg-linkedin      {background-color:#0077B5 !important;}
 
-.border-dark-gray     {border-color:#9ba5b4 !important;}
-.border-gray-light    {border-color:#f4f6f8 !important;}
+.text-dark-gray     {color:#878787 !important;}
+.text-gray-light    {color:#f5f5f5 !important;}
+.text-blue          {color:#38bdf8 !important;}
+.text-blue-light    {color:#ebf8fe !important;}
+.text-pink          {color:#f472b6 !important;}
+.text-pink-2        {color:#e879f9 !important;}
+.text-purple        {color:#818cf8 !important;}
+.text-purple-2      {color:#a78bfa !important;}
+.text-purple-light  {color:#e0e7ff !important;}
+.text-green         {color:#50d67c !important;}
+.text-orange        {color:#ff6c37 !important;}
+.text-white         {color:#ffffff !important;}
+.text-black         {color:#2c3343 !important;}
+
+.border-dark-gray     {border-color:#878787 !important;}
+.border-gray-light    {border-color:#f5f5f5 !important;}
 .border-blue          {border-color:#38bdf8 !important;}
 .border-blue-light    {border-color:#ebf8fe !important;}
 .border-pink          {border-color:#f472b6 !important;}
@@ -40,8 +65,8 @@
 .border-white         {border-color:#ffffff !important;}
 .border-black         {border-color:#2c3343 !important;}
 
-.border-b-dark-gray     {border-bottom-color:#9ba5b4 !important;}
-.border-b-gray-light    {border-bottom-color:#f4f6f8 !important;}
+.border-b-dark-gray     {border-bottom-color:#878787 !important;}
+.border-b-gray-light    {border-bottom-color:#f5f5f5 !important;}
 .border-b-blue          {border-bottom-color:#38bdf8 !important;}
 .border-b-blue-light    {border-bottom-color:#ebf8fe !important;}
 .border-b-pink          {border-bottom-color:#f472b6 !important;}
@@ -54,8 +79,8 @@
 .border-b-white         {border-bottom-color:#ffffff !important;}
 .border-b-black         {border-bottom-color:#2c3343 !important;}
 
-.border-t-dark-gray     {border-top-color:#9ba5b4 !important;}
-.border-t-gray-light    {border-top-color:#f4f6f8 !important;}
+.border-t-dark-gray     {border-top-color:#878787 !important;}
+.border-t-gray-light    {border-top-color:#f5f5f5 !important;}
 .border-t-blue          {border-top-color:#38bdf8 !important;}
 .border-t-blue-light    {border-top-color:#ebf8fe !important;}
 .border-t-pink          {border-top-color:#f472b6 !important;}
@@ -68,8 +93,8 @@
 .border-t-white         {border-top-color:#ffffff !important;}
 .border-t-black         {border-top-color:#2c3343 !important;}
 
-.border-l-dark-gray     {border-left-color:#9ba5b4 !important;}
-.border-l-gray-light    {border-left-color:#f4f6f8 !important;}
+.border-l-dark-gray     {border-left-color:#878787 !important;}
+.border-l-gray-light    {border-left-color:#f5f5f5 !important;}
 .border-l-blue          {border-left-color:#38bdf8 !important;}
 .border-l-blue-light    {border-left-color:#ebf8fe !important;}
 .border-l-pink          {border-left-color:#f472b6 !important;}
@@ -82,8 +107,8 @@
 .border-l-white         {border-left-color:#ffffff !important;}
 .border-l-black         {border-left-color:#2c3343 !important;}
 
-.border-r-dark-gray     {border-right-color:#9ba5b4 !important;}
-.border-r-gray-light    {border-right-color:#f4f6f8 !important;}
+.border-r-dark-gray     {border-right-color:#878787 !important;}
+.border-r-gray-light    {border-right-color:#f5f5f5 !important;}
 .border-r-blue          {border-right-color:#38bdf8 !important;}
 .border-r-blue-light    {border-right-color:#ebf8fe !important;}
 .border-r-pink          {border-right-color:#f472b6 !important;}
@@ -95,17 +120,3 @@
 .border-r-orange        {border-right-color:#ff6c37 !important;}
 .border-r-white         {border-right-color:#ffffff !important;}
 .border-r-black         {border-right-color:#2c3343 !important;}
-
-.text-dark-gray     {color:#9ba5b4 !important;}
-.text-gray-light    {color:#f4f6f8 !important;}
-.text-blue          {color:#38bdf8 !important;}
-.text-blue-light    {color:#ebf8fe !important;}
-.text-pink          {color:#f472b6 !important;}
-.text-pink-2        {color:#e879f9 !important;}
-.text-purple        {color:#818cf8 !important;}
-.text-purple-2      {color:#a78bfa !important;}
-.text-purple-light  {color:#e0e7ff !important;}
-.text-green         {color:#50d67c !important;}
-.text-orange        {color:#ff6c37 !important;}
-.text-white         {color:#ffffff !important;}
-.text-black         {color:#2c3343 !important;}
