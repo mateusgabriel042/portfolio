@@ -1,0 +1,32 @@
+.box_image_show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  z-index: 40;
+  top: -130px;
+  left: -100vw;
+  width: 100vw;
+  height: 100vh;
+}
+
+.box_image_show div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width:720px;
+  height:450px;
+  border-radius:10px;
+  transform:scale(0);
+  transition:0.5s;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box_image_show div button {
+  position: absolute;
+  top: -20px;
+  right: 25px;
+  color:#e21c1c;
+}

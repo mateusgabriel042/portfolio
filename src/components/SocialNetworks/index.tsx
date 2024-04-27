@@ -13,7 +13,7 @@ export const SocialNetwork = () => {
 
 
     <div className="flex items-center h-full gap-x-2">
-      <Link href="#" target="_blank" className={`link_social_network ${isOnsideFacebook ? 'facebook_link_inside' : ''}`}
+      <Link href="https://www.facebook.com/devmateusgabriel/" target="_blank" className={`link_social_network ${isOnsideFacebook ? 'facebook_link_inside' : ''}`}
         onMouseEnter={() => setIsOnsideFacebook(!isOnsideFacebook)}
         onMouseLeave={() => setIsOnsideFacebook(!isOnsideFacebook)}
       >
@@ -21,7 +21,7 @@ export const SocialNetwork = () => {
         <span>Facebook</span>
       </Link>
 
-      <Link href="#" target="_blank" className={`link_social_network ${isOnsideInstagram ? 'instagram_link_inside' : ''}`}
+      <Link href="https://www.instagram.com/mateus.gab_/" target="_blank" className={`link_social_network ${isOnsideInstagram ? 'instagram_link_inside' : ''}`}
         onMouseEnter={() => setIsOnsideInstagram(!isOnsideInstagram)}
         onMouseLeave={() => setIsOnsideInstagram(!isOnsideInstagram)}
       >
@@ -29,7 +29,7 @@ export const SocialNetwork = () => {
         <span>Instagram</span>
       </Link>
 
-      <Link href="#" target="_blank" className={`link_social_network ${isOnsideLinkedin ? 'linkedin_link_inside' : ''}`}
+      <Link href="https://www.linkedin.com/in/mateus-gabriel-a64885144/" target="_blank" className={`link_social_network ${isOnsideLinkedin ? 'linkedin_link_inside' : ''}`}
         onMouseEnter={() => setIsOnsideLinkedin(!isOnsideLinkedin)}
         onMouseLeave={() => setIsOnsideLinkedin(!isOnsideLinkedin)}
       >
@@ -37,7 +37,7 @@ export const SocialNetwork = () => {
         <span>Linkedin</span>
       </Link>
 
-      <Link href="#" target="_blank" className={`link_social_network ${isOnsideGithub ? 'github_link_inside' : ''}`}
+      <Link href="https://github.com/mateusgabriel042" target="_blank" className={`link_social_network ${isOnsideGithub ? 'github_link_inside' : ''}`}
         onMouseEnter={() => setIsOnsideGithub(!isOnsideGithub)}
         onMouseLeave={() => setIsOnsideGithub(!isOnsideGithub)}
       >
