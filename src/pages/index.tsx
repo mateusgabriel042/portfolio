@@ -11,7 +11,7 @@ export default function Home() {
         <div className='w-full flex justify-center gap-x-4'>
           <div className='flex text-dark-gray items-center gap-x-2'>
             <FaBirthdayCake size="15" className="mt-[-3px]"/>
-            <label className='text-sm'> 24 anos</label>
+            <label className='text-sm'>25 anos</label>
           </div>
           <div className='flex text-dark-gray items-center gap-x-2'>
             <FaMapMarkerAlt size="15" className="mt-[-3px]" />
@@ -28,10 +28,10 @@ export default function Home() {
         </div>
 
         <Heading size="paragraph" className='mt-4 w-full text-center px-20'>
-          Sou um desenvolvedor full stack pleno com experiência no desenvolvimento de sistemas web em PHP,
-          React e Next, bem como no manuseio de sistemas já em produção. Tenho formação em Análise e Desenvolvimento
-          de Sistemas pela Estácio e em Técnico em Informática pelo IFRN Campus Macau, e atuei como instrutor de
-          POO durante minha bolsa TAL no IFRN.
+          Sou um desenvolvedor full stack pleno, com experiência no desenvolvimento de sistemas web em PHP desde 2019,
+          também desenvolve páginas responsivas utilizando React e Next. Possui formação em Análise e Desenvolvimento
+          de Sistemas pela Estácio e em Técnico em Informática pelo IFRN Campus Macau. Além disso, já participou
+          de vários congressos educacionais, apresentando projetos criados durante o período letivo.
         </Heading>
 
         <div className='flex justify-center gap-x-3 mt-12'>
@@ -43,7 +43,7 @@ export default function Home() {
           <div className='w-[560px] h-[85px] flex bg-white border-gray-light border'>
             <div className='w-[140px] h-full flex flex-col items-center justify-center'>
               <label className='text-sm text-black'>Projetos</label>
-              <span className='text-[30px] text-black leading-tight'>13</span>
+              <span className='text-[30px] text-black leading-tight'>8</span>
             </div>
 
             <div className='w-[140px] h-full flex flex-col items-center justify-center'>
@@ -53,7 +53,7 @@ export default function Home() {
 
             <div className='w-[140px] h-full flex flex-col items-center justify-center'>
               <label className='text-sm text-black'>Anos de experiência</label>
-              <span className='text-[30px] text-black leading-tight'>3,1</span>
+              <span className='text-[30px] text-black leading-tight'>4</span>
             </div>
 
             <div className='w-[140px] h-full flex flex-col items-center justify-center'>
