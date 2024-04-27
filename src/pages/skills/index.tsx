@@ -1,4 +1,4 @@
-import ChartStackedBarSkill from '../components/Charts/Bar/Stacked/Skill/index'
+import ChartStackedBarSkill from '@/components/Charts/Bar/Stacked/Skill/index'
 import Heading from '@/components/Heading/Index'
 
 export default function Home() {
