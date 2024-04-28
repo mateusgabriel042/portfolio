@@ -6,11 +6,17 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import Image from 'next/image';
 import Heading from '@/components/Heading/Index';
-import { dataPortfolio } from '@/data/portfolio'
+import { returnDataPortfolio } from '@/data/portfolio'
 import Styles from './style.module.css'
 import { IoCloseCircle } from "react-icons/io5";
+import { getDictionaryUseClient } from '@/dictionaries/dictionary-use-client'
+import { useRouter } from 'next/router';
 
 export default function Home() {
+  const { lang }:any = useRouter().query;
+  const dict = getDictionaryUseClient(lang);
+  const dataPortfolio = returnDataPortfolio(dict.page_portfolio)
+
   const [currentPortfolio, setCurrentPortfolio] = useState(0);
   const [imageSelected, setImageSelected] = useState('');
 
@@ -35,7 +41,7 @@ export default function Home() {
 
   return (
     <>
-      <Heading size="title" className='text-center text-black mt-4'>. : Portfólio : .</Heading>
+      <Heading size="title" className='text-center text-black mt-4'>. : {dict.page_formation.title} : .</Heading>
 
       <div className={`${Styles.box_image_show}`} id='box_image_show'>
         <div id='sub_box_image_show'>
@@ -45,13 +51,13 @@ export default function Home() {
 
           {imageSelected !== '' ?
 
-          <Image
-            src={imageSelected}
-            alt=''
-            width={650}
-            height={650}
-          /> : <></>
-        }
+            <Image
+              src={imageSelected}
+              alt=''
+              width={650}
+              height={650}
+            /> : <></>
+          }
         </div>
       </div>
 
@@ -60,7 +66,7 @@ export default function Home() {
 
           <div className='col-span-4'>
             <Heading size="subtitle" className='mb-3 text-justify text-dark-gray'>
-              {dataPortfolio[currentPortfolio].projectName}:
+              {returnDataPortfolio(dict.page_portfolio)[currentPortfolio].projectName}:
             </Heading>
 
             <div className='w-full h-[200px] bg-gray-100'>
@@ -94,7 +100,7 @@ export default function Home() {
 
           <div className='col-span-3'>
             <Heading size="subtitle" className='mb-3 text-justify text-dark-gray'>
-              Desenvolvimento:
+              {dict.page_portfolio.development}:
             </Heading>
 
             <div className='grid grid-cols-3 gap-7 border border-1 p-5'>
@@ -109,7 +115,7 @@ export default function Home() {
 
           <div className='col-span-3'>
             <Heading size="subtitle" className='mb-3 text-justify text-dark-gray'>
-              Projetos:
+              {dict.page_portfolio.projects}:
             </Heading>
 
             <div className='flex flex-col gap-3'>

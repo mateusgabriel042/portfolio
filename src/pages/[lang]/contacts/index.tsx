@@ -1,13 +1,18 @@
 import Heading from "@/components/Heading/Index";
 import Link from "next/link";
 import { useQRCode } from 'next-qrcode';
+import { getDictionaryUseClient } from '@/dictionaries/dictionary-use-client'
+import { useRouter } from 'next/router';
 
 export default function Home() {
+  const { lang }:any = useRouter().query;
+  const dict = getDictionaryUseClient(lang);
+
   const { Canvas } = useQRCode();
 
   return (
     <>
-      <Heading size="title" className='text-center text-black mt-4'>. : Contatos : .</Heading>
+      <Heading size="title" className='text-center text-black mt-4'>. : {dict.page_contacts.title} : .</Heading>
 
       <div className='w-full mt-[60px] mx-auto'>
         <div className='w-full'>
@@ -15,7 +20,7 @@ export default function Home() {
 
             <li className='flex justify-center'>
               <div className='flex items-center gap-x-2'>
-                <h3 className='font-bold text-dark-gray'>Whatsapp:</h3>
+                <h3 className='font-bold text-dark-gray'>WhatsApp:</h3>
                 <label className=" text-dark-gray">(84) 99993 - 2183</label>
               </div>
             </li>
@@ -29,14 +34,14 @@ export default function Home() {
 
             <li className='flex justify-center'>
               <div className='flex items-center gap-x-2'>
-                <h3 className='font-bold text-dark-gray'>Meu site:</h3>
-                <label className=" text-dark-gray">Em breve!</label>
+                <h3 className='font-bold text-dark-gray'>{dict.page_contacts.texts.my_website}:</h3>
+                <label className=" text-dark-gray">{dict.page_contacts.texts.shortly}</label>
               </div>
             </li>
           </ul>
 
           <div className="flex justify-center gap-y-1 mt-9 flex-wrap">
-            <label className="w-full text-[12px] text-center text-dark-gray">whatsapp</label>
+            <label className="w-full text-[12px] text-center text-dark-gray">WhatsApp</label>
             <Canvas
               text={'https://wa.me/5584999932183'}
               options={{

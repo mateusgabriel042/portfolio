@@ -1,16 +1,22 @@
 import { useState } from 'react';
-import Link from "next/link";
-import { BiLogoFacebook, BiLogoInstagramAlt, BiLogoLinkedin, BiLogoBehance } from "react-icons/bi";
-import { DiGithubAlt } from "react-icons/di";
 import SocialNetwork from '../SocialNetworks';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
+import { usePathname } from 'next/navigation'
+import Link from 'next/link';
 
 export const Header = () => {
-  const [isOnsideFacebook, setIsOnsideFacebook] = useState(false);
-  const [isOnsideInstagram, setIsOnsideInstagram] = useState(false);
-  const [isOnsideLinkedin, setIsOnsideLinkedin] = useState(false);
-  const [isOnsideGithub, setIsOnsideGithub] = useState(false);
-  const [isOnsideBehance, setIsOnsideBehance] = useState(false);
+
+  const router = useRouter();
+  const { lang }:any = router.query;
+  
+  const pathname = usePathname()
+
+  const getPathName = (language: string) => {
+    const paths = pathname?.split('/');
+    const newPath = paths?.slice(2).join('/');
+    return `/${language}/${newPath}`
+  }
 
   return (
     <div className="fixed bg-white flex gap-x-[30px] justify-between items-center top-0 left-0 w-full px-[5%] py-[20px]">
@@ -24,9 +30,9 @@ export const Header = () => {
           </div>
         </div>
 
-        <div className="flex">
-          <button type="button" className="bg-dark-gray text-white rounded-full px-10 py-1 text-xs z-10 translate-x-[20px]">Português</button>
-          <button type="button" className="bg-gray-light text-black rounded-full px-10 transform py-1 text-xs">Inglês</button>
+        <div className="flex gap-2">
+          <Link href={getPathName('pt-BR')} className={`${lang == 'pt-BR' ? 'bg-dark-gray text-white' : 'text-dark-gray'} border border-dark-gray rounded-full w-[45px] h-[45px] flex items-center justify-center py-1 text-xs`}>PT-BR</Link>
+          <Link href={getPathName('en-US')} className={`${lang == 'en-US' ? 'bg-dark-gray text-white' : 'text-dark-gray'} border border-dark-gray rounded-full w-[45px] h-[45px] flex items-center justify-center py-1 text-xs`}>EN-US</Link>
         </div>
       </div>
 

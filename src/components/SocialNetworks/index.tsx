@@ -42,7 +42,7 @@ export const SocialNetwork = () => {
         onMouseLeave={() => setIsOnsideGithub(!isOnsideGithub)}
       >
         <DiGithubAlt size="18" />
-        <span>Github</span>
+        <span>GitHub</span>
       </Link>
     </div>
   )

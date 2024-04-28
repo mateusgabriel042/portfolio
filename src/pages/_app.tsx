@@ -3,9 +3,7 @@ import '@/styles/globals.css';
 import 'tailwindcss/tailwind.css';
 import Sidebar from '@/components/Sidebar/index'
 import Header from '@/components/Header/index'
-
 export default function App({ Component, pageProps }: AppProps) {
-
   return (
     <>
       <Header />

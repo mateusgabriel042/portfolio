@@ -1,9 +1,14 @@
 import Heading from "@/components/Heading/Index";
+import { getDictionaryUseClient } from '@/dictionaries/dictionary-use-client'
+import { useRouter } from 'next/router';
 
 export default function Home() {
+  const { lang }:any = useRouter().query;
+  const dict = getDictionaryUseClient(lang);
+
   return (
     <>
-      <Heading size="title" className='text-center text-black mt-4'>. : Experiências : .</Heading>
+      <Heading size="title" className='text-center text-black mt-4'>. : {dict.page_experience.title} : .</Heading>
 
       <div className='w-full mt-[60px] mx-auto'>
         <div className='grid grid-cols-3 gap-x-5 gap-y-4'>
@@ -13,17 +18,17 @@ export default function Home() {
             </div>
             <h1 className='text-[15px]'>IETÉ</h1>
             <h3 className='text-[13px] font-bold text-blue'>Dev. Fullstack Pleno</h3>
-            <label className='text-black text-sm'>10/2021 - <span className='text-green'>Atualmente</span></label>
+            <label className='text-black text-sm'>10/2021 - <span className='text-green'>{dict.page_experience.at_the_moment}</span></label>
 
-            <h3 className='text-[13px] font-bold text-black my-2'>Responsabilidades</h3>
+            <h3 className='text-[13px] font-bold text-black my-2'>{dict.page_experience.responsibilities}</h3>
             <ul className='w-full text-xs'>
-              <li>- Desenvolvimento Full Stack;</li>
+              <li>- {dict.page_experience.texts.development_full_stack};</li>
               <li>- APIs RESTfull;</li>
-              <li>- Arquitetura Multi Tenancy;</li>
-              <li>- SOLID e PSR12.</li>
+              <li>- {dict.page_experience.texts.architecture_multi_tenancy};</li>
+              <li>- {dict.page_experience.texts.solid_and_psr12}.</li>
             </ul>
 
-            <h3 className='text-[13px] font-bold text-black my-2'>Projetos</h3>
+            <h3 className='text-[13px] font-bold text-black my-2'>{dict.page_experience.projects}</h3>
             <ul className='w-full text-xs'>
               <li>- SIMED;</li>
               <li>- Easit;</li>
@@ -41,13 +46,13 @@ export default function Home() {
             <h3 className='text-[13px] font-bold text-blue'>Dev. Fullstack Pleno</h3>
             <label className='text-black text-sm'>09/2023 - 01/2024</label>
 
-            <h3 className='text-[13px] font-bold text-black my-2'>Responsabilidades</h3>
+            <h3 className='text-[13px] font-bold text-black my-2'>{dict.page_experience.responsibilities}</h3>
             <ul className='w-full text-xs'>
-              <li>- Integração API da CARTOS;</li>
-              <li>- Criação de arquivo de remessa CNAB 400. </li>
+              <li>- {dict.page_experience.texts.cartos_api_integration};</li>
+              <li>- {dict.page_experience.texts.cnab_400_shipment_file_creation}. </li>
             </ul>
 
-            <h3 className='text-[13px] font-bold text-black my-2'>Projetos</h3>
+            <h3 className='text-[13px] font-bold text-black my-2'>{dict.page_experience.projects}</h3>
             <ul className='w-full text-xs'>
               <li>- IHOLD Bank.</li>
             </ul>
@@ -61,12 +66,12 @@ export default function Home() {
             <h3 className='text-[13px] font-bold text-blue'>Dev. Frontend Júnior</h3>
             <label className='text-black text-sm'>07/2023 - 09/2023</label>
 
-            <h3 className='text-[13px] font-bold text-black my-2'>Responsabilidades</h3>
+            <h3 className='text-[13px] font-bold text-black my-2'>{dict.page_experience.responsibilities}</h3>
             <ul className='w-full text-xs'>
-              <li>- Desenvolvimento de frontend em vue.js</li>
+              <li>- {dict.page_experience.texts.frontend_development_in_vuejs}.</li>
             </ul>
 
-            <h3 className='text-[13px] font-bold text-black my-2'>Projetos</h3>
+            <h3 className='text-[13px] font-bold text-black my-2'>{dict.page_experience.projects}</h3>
             <ul className='w-full text-xs'>
               <li>- Snack Prompts.</li>
             </ul>
@@ -74,7 +79,7 @@ export default function Home() {
         </div>
 
         <div className='flex justify-center mt-8'>
-          <label className='bg-blue text-white text-sm rounded-full px-7 py-3'>#4 anos de experiência</label>
+          <label className='bg-blue text-white text-sm rounded-full px-7 py-3'>#4 {dict.page_experience.texts.years_of_experience}</label>
         </div>
       </div>
     </>
