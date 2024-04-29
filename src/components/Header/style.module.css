@@ -1,0 +1,68 @@
+/*.header {}*/
+
+.button_toggle_sidebar {
+  display:none;
+  border:1px solid #cac8c8;
+  color: #aaa9a9;
+  border-radius: 5px;
+  padding:5px;
+}
+
+.social_network_in_head {
+  display:none;
+}
+
+.social_network_out_head {
+  display:block;
+}
+
+.languages_select {
+  display:flex;
+}
+
+/* Estilos para telas com largura até 500px */
+@media screen and (max-width: 550px) {
+  .header {
+    padding:0px;
+  }
+  .header > div {border-radius: 0px; border:none;}
+  
+
+  .button_toggle_sidebar {
+    display:block;
+  }
+
+  .social_network_in_head {
+    display:none;
+  }
+  
+  .social_network_out_head {
+    display:none;
+  }
+
+  .languages_select {
+    display:none;
+  }
+}
+
+/* Estilos para telas com largura entre 501px e 900px */
+@media screen and (min-width: 551px) and (max-width: 900px) {
+  .button_toggle_sidebar {
+    display:block;
+  } 
+
+  .social_network_in_head {
+    display:block;
+  }
+  
+  .social_network_out_head {
+    display:none;
+  }
+
+  .languages_select {
+    display:none;
+  }
+}
+
+/* Estilos para telas com largura maior que 900px */
+@media screen and (min-width: 901px) {}

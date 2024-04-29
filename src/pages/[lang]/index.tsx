@@ -5,6 +5,7 @@ import { MdEmail, MdMan3 } from 'react-icons/md'
 import { getDictionaryUseClient } from '@/dictionaries/dictionary-use-client'
 import { useRouter } from 'next/router';
 
+
 export default function Home() {
   const { lang }:any = useRouter().query;
   const dict = getDictionaryUseClient(lang);
