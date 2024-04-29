@@ -7,6 +7,19 @@ import Styles from './style.module.css'
 import SelectLanguage from '../SelectLanguage';
 import SocialNetwork from '../SocialNetworks';
 
+export const toggleSidebar = () => {
+  const areaSidebar:any = document.getElementById('area_sidebar');
+  const sidebar:any = document.getElementById('sidebar');
+
+  if(areaSidebar.classList.contains(Styles.show_area_sidebar)){
+    areaSidebar.classList.remove(Styles.show_area_sidebar);
+    sidebar.classList.remove(Styles.show_sidebar);
+  } else {
+    areaSidebar.classList.add(Styles.show_area_sidebar);
+    sidebar.classList.add(Styles.show_sidebar);
+  }
+}
+
 export const Sidebar = () => {
   const currentPath = usePathname()
 
@@ -24,7 +37,7 @@ export const Sidebar = () => {
           <li className="w-full flex items-center gap-x-3 relative">
             <Image src="/assets/images/icon_arrow_right.png" width={50} height={50} alt='' className={currentPath === `/${lang}` ? 'w-[10px] absolute left-[-20px]' : 'hidden'} />
             <Image src="/assets/images/icon_sidebar_about.png" width={50} height={50} className='w-[27px]' alt="img-portfolio" />
-            <Link href={`/${lang}`} className={currentPath === `/${lang}` ? 'active font-bold' : 'color-black font-bold'}>
+            <Link href={`/${lang}`} className={currentPath === `/${lang}` ? 'active font-bold' : 'color-black font-bold'} onClick={() => toggleSidebar()}>
               {dict.sidebar.about}
             </Link>
           </li>
@@ -32,7 +45,7 @@ export const Sidebar = () => {
           <li className="w-full flex items-center gap-x-3 relative">
             <Image src="/assets/images/icon_arrow_right.png" width={50} height={50} alt='' className={currentPath === `/${lang}/portfolio` ? 'w-[10px] absolute left-[-20px]' : 'hidden'} />
             <Image src="/assets/images/icon_sidebar_portfolio.png" width={50} height={50} className='w-[27px]' alt="img-portfolio" />
-            <Link href={`/${lang}/portfolio`} className={currentPath === `/${lang}/portfolio` ? 'active font-bold' : 'color-black font-bold'}>
+            <Link href={`/${lang}/portfolio`} className={currentPath === `/${lang}/portfolio` ? 'active font-bold' : 'color-black font-bold'} onClick={() => toggleSidebar()}>
               {dict.sidebar.portfolio}
             </Link>
           </li>
@@ -40,7 +53,7 @@ export const Sidebar = () => {
           <li className="w-full flex items-center gap-x-3 relative">
             <Image src="/assets/images/icon_arrow_right.png" width={50} height={50} alt='' className={currentPath === `/${lang}/skills` ? 'w-[10px] absolute left-[-20px]' : 'hidden'} />
             <Image src="/assets/images/icon_sidebar_skills.png" width={50} height={50} className='w-[27px]' alt="img-portfolio" />
-            <Link href={`/${lang}/skills`} className={currentPath === `/${lang}/skills` ? 'active font-bold' : 'color-black font-bold'}>
+            <Link href={`/${lang}/skills`} className={currentPath === `/${lang}/skills` ? 'active font-bold' : 'color-black font-bold'} onClick={() => toggleSidebar()}>
               {dict.sidebar.skills}
             </Link>
           </li>
@@ -48,7 +61,7 @@ export const Sidebar = () => {
           <li className="w-full flex items-center gap-x-3 relative">
             <Image src="/assets/images/icon_arrow_right.png" width={50} height={50} alt='' className={currentPath === `/${lang}/experience` ? 'w-[10px] absolute left-[-20px]' : 'hidden'} />
             <Image src="/assets/images/icon_sidebar_experience.png" width={50} height={50} className='w-[27px]' alt="img-portfolio" />
-            <Link href={`/${lang}/experience`} className={currentPath === `/${lang}/experience` ? 'active font-bold' : 'color-black font-bold'}>
+            <Link href={`/${lang}/experience`} className={currentPath === `/${lang}/experience` ? 'active font-bold' : 'color-black font-bold'} onClick={() => toggleSidebar()}>
               {dict.sidebar.experience}
             </Link>
           </li>
@@ -56,7 +69,7 @@ export const Sidebar = () => {
           <li className="w-full flex items-center gap-x-3 relative">
             <Image src="/assets/images/icon_arrow_right.png" width={50} height={50} alt='' className={currentPath === `/${lang}/formation` ? 'w-[10px] absolute left-[-20px]' : 'hidden'} />
             <Image src="/assets/images/icon_sidebar_formations.png" width={50} height={50} className='w-[27px]' alt="img-portfolio" />
-            <Link href={`/${lang}/formation`} className={currentPath === `/${lang}/formation` ? 'active font-bold' : 'color-black font-bold'}>
+            <Link href={`/${lang}/formation`} className={currentPath === `/${lang}/formation` ? 'active font-bold' : 'color-black font-bold'} onClick={() => toggleSidebar()}>
               {dict.sidebar.formation}
             </Link>
           </li>
@@ -64,7 +77,7 @@ export const Sidebar = () => {
           <li className="w-full flex items-center gap-x-3 relative">
             <Image src="/assets/images/icon_arrow_right.png" width={50} height={50} alt='' className={currentPath === `/${lang}/contacts` ? 'w-[10px] absolute left-[-20px]' : 'hidden'} />
             <Image src="/assets/images/icon_sidebar_contacts.png" width={50} height={50} className='w-[27px]' alt="img-portfolio" />
-            <Link href={`/${lang}/contacts`} className={currentPath === `/${lang}/contacts` ? 'active font-bold' : 'color-black font-bold'}>
+            <Link href={`/${lang}/contacts`} className={currentPath === `/${lang}/contacts` ? 'active font-bold' : 'color-black font-bold'} onClick={() => toggleSidebar()}>
               {dict.sidebar.contacts}
             </Link>
           </li>
@@ -72,7 +85,7 @@ export const Sidebar = () => {
           <li className="w-full flex items-center gap-x-3 relative">
             <Image src="/assets/images/icon_arrow_right.png" width={50} height={50} alt='' className={currentPath === `/${lang}/blog` ? 'w-[10px] absolute left-[-20px]' : 'hidden'} />
             <Image src="/assets/images/icon_sidebar_blog.png" width={50} height={50} className='w-[27px]' alt="img-portfolio" />
-            <Link href={`/${lang}/blog`} className={currentPath === `/${lang}/blog` ? 'active font-bold' : 'color-black font-bold'}>
+            <Link href={`/${lang}/blog`} className={currentPath === `/${lang}/blog` ? 'active font-bold' : 'color-black font-bold'} onClick={() => toggleSidebar()}>
               {dict.sidebar.blog}
             </Link>
           </li>
