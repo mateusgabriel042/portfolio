@@ -41,7 +41,7 @@ export default function Home() {
 
   return (
     <>
-      <Heading size="title" className='text-center text-black mt-4'>. : {dict.page_formation.title} : .</Heading>
+      <Heading size="title" className='text-center text-black mt-4'>. : {dict.page_portfolio.title} : .</Heading>
 
       <div className={`${Styles.box_image_show}`} id='box_image_show'>
         <div id='sub_box_image_show'>
