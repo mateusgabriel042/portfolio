@@ -40,7 +40,7 @@
     border:none;
     left:0px;
     transform:translateX(-100%);
-    top:-46px;
+    top:-16px;
     width:100%;
     height: calc(100%);
   }
@@ -51,7 +51,7 @@
     width:100%;
     background-color:#ffffff;
     transform:translateX(-100%);
-    height: calc(100% + 46px);
+    height: calc(100% + 16px);
   }
 
   .sidebar ul {
