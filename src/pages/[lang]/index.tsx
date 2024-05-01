@@ -45,22 +45,22 @@ export default function Home() {
 
         <div className='w-full flex justify-center items-center mt-14'>
           <div className='w-[280] sm:w-[560px] grid grid-cols-2 sm:grid-cols-4 bg-white gap-y-5 border-gray-light sm:border'>
-            <div className='w-full flex flex-col py-3 items-center justify-center'>
+            <div className='w-full flex flex-col py-3 gap-y-[6px] items-center justify-center'>
               <label className='text-sm text-black'>{dict.page_about.projects}</label>
               <span className='text-[30px] text-black leading-tight'>8</span>
             </div>
 
-            <div className='w-full flex flex-col py-3 items-center justify-center'>
+            <div className='w-full flex flex-col py-3 gap-y-[6px] items-center justify-center'>
               <label className='text-sm text-black'>{dict.page_about.certificates}</label>
               <span className='text-[30px] text-black leading-tight'>17</span>
             </div>
 
-            <div className='w-full flex flex-col py-3 items-center justify-center'>
+            <div className='w-full flex flex-col py-3 gap-y-[6px] items-center justify-center'>
               <label className='text-sm text-black'>{dict.page_about.years_of_experience}</label>
               <span className='text-[30px] text-black leading-tight'>4</span>
             </div>
 
-            <div className='w-full flex flex-col py-3 items-center justify-center'>
+            <div className='w-full flex flex-col py-3 gap-y-[6px] items-center justify-center'>
               <label className='text-sm text-black'>{dict.page_about.publications}</label>
               <span className='text-[30px] text-black leading-tight'>0</span>
             </div>
