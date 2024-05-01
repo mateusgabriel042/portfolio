@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Heading size="title" className='text-center text-black mt-4'>. : {dict.page_blog.title} : .</Heading>
-      <div className='w-[calc(100%-9%)] mt-5 mx-auto h-[calc(100%-18%)]'>
+      <div className='w-[calc(100%-9%)] mt-5 mx-auto pb-8'>
         <div className='flex justify-center mt-[140px]'>
           <Heading size="subtitle" className="text-dark-gray text-center">{dict.page_blog.texts.shortly}</Heading>
         </div>

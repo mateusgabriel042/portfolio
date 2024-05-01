@@ -12,11 +12,11 @@ export default function Home() {
     <>
       <Heading size="title" className='text-center text-black mt-4'>. : {dict.page_formation.title} : .</Heading>
 
-      <div className='w-full mt-[70px] mx-auto'>
-        <div className='flex w-[80%] mx-auto justify-center gap-x-5'>
+      <div className='w-full mt-[70px] mx-auto pb-8'>
+        <div className='flex flex-wrap gap-y-9 w-[80%] mx-auto justify-center gap-x-5'>
 
-          <div className='relative flex flex-1 flex-col rounded-lg border border-1 px-7 py-4'>
-            <div className='absolute right-[25px] top-[-23px] rounded-full w-[45px] h-[45px] flex items-center justify-center bg-orange text-white text-sm'>
+          <div className='relative min-w-[250px] flex flex-1 flex-col rounded-lg border border-1 px-7 py-4'>
+            <div className='absolute right-[25px] top-[-25px] rounded-full w-[45px] h-[45px] flex items-center justify-center bg-orange text-white text-sm'>
               <GoMortarBoard size="25" />
             </div>
             <h1 className='text-[15px]'>{dict.page_formation.texts.computer_technician}</h1>
@@ -25,8 +25,8 @@ export default function Home() {
             <span className='text-[13px] text-green'>{dict.page_formation.concluded}</span>
           </div>
 
-          <div className='relative flex flex-1 flex-col rounded-lg border border-1 px-7 py-4'>
-            <div className='absolute right-[25px] top-[-23px] rounded-full w-[45px] h-[45px] flex items-center justify-center bg-orange text-white text-sm'>
+          <div className='relative min-w-[250px] flex flex-1 flex-col rounded-lg border border-1 px-7 py-4'>
+            <div className='absolute right-[25px] top-[-25px] rounded-full w-[45px] h-[45px] flex items-center justify-center bg-orange text-white text-sm'>
               <GoMortarBoard size="25" />
             </div>
             <h1 className='text-[15px]'>{dict.page_formation.texts.analysis_and_systems_development}</h1>

@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <Heading size="title" className='text-center text-black mt-4'>. : {dict.page_contacts.title} : .</Heading>
 
-      <div className='w-full mt-[60px] mx-auto'>
+      <div className='w-full mt-[60px] mx-auto pb-8'>
         <div className='w-full'>
           <ul className='flex w-full flex-col gap-y-3'>
 

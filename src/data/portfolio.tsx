@@ -61,6 +61,9 @@ export const returnDataPortfolio = (dict: any) => {
       slides: ['snack_prompts_1.png'],
       iconsSkills: [
         { icon: 'vue', size: 45 },
+        { icon: 'html5', size: 30 },
+        { icon: 'css3', size: 30 },
+        { icon: 'tailwindCss', size: 30 },
       ],
       description: dict.texts.description_snack_prompts
     }

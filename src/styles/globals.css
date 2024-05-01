@@ -1,9 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&display=swap');
 
+::-webkit-scrollbar {width:7px;}
+::-webkit-scrollbar-track-piece {background-color:#efefef;}
+::-webkit-scrollbar-thumb {background-color:#666666;}
+
 * {font-family:'roboto';}
 
 .active {
   color:#38bdf8;
+}
+
+.main_pages {
+  position: fixed;
+  display:flex;
+  top:120px;
+  right:0px;
+  padding:2% 0px;
+  gap:15px;
+  width:100%;
+  height:calc(100% - 120px);
+}
+
+.container_pages {
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 550px) {
+  .main_pages {
+    position: relative;
+    top:90px;
+  }
+
+  .container_pages {
+    height: auto;
+    overflow: visible;
+  }
 }
 
 .link_social_network {width:25px; height:25px; border-radius:100%; display:flex; justify-content:center; align-items:center; transition:0.5s; gap:5px; background-color:#ffffff; color:#878787; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);}

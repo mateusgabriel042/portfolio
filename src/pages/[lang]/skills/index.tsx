@@ -11,10 +11,10 @@ export default function Home() {
     <>
       <Heading size="title" className='text-center text-black mt-4'>. : {dict.page_skills.title} : .</Heading>
 
-      <div className='w-full mx-auto mt-9'>
+      <div className='w-full mx-auto mt-9 pb-8'>
         <Heading size="subtitle" className='text-center mt-4'>{dict.page_skills.main}</Heading>
         
-        <div className='w-full grid grid-cols-3 gap-y-1 gap-x-5 mt-8'>
+        <div className='w-full grid grid-cols-1 sm:grid-cols-3 gap-y-1 gap-x-5 mt-8'>
           <ChartStackedBarSkill percentage={80} label="PHP 8.2" size={4} />
           <ChartStackedBarSkill percentage={90} label="Laravel" size={4} />
           <ChartStackedBarSkill percentage={90} label="Javascript" size={4} />
@@ -25,7 +25,7 @@ export default function Home() {
 
         <Heading size="subtitle" className='text-center mt-4'>{dict.page_skills.others}</Heading>
 
-        <div className='w-full grid grid-cols-3 gap-y-1 gap-x-5 mt-8'>
+        <div className='w-full grid grid-cols-1 sm:grid-cols-3 gap-y-1 gap-x-5 mt-8'>
           <ChartStackedBarSkill percentage={100} label="HTML5 / CSS3" size={4} />
           <ChartStackedBarSkill percentage={100} label="Bootstrap 5" size={4} />
           <ChartStackedBarSkill percentage={80} label="Tailwind" size={4} />

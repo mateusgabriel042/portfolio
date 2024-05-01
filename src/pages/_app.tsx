@@ -13,9 +13,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Header />
-      <main className='fixed flex top-[120px] px-[2%] gap-x-5 right-0 w-full h-[calc(100%-120px)]'>
+      <main className={`main_pages`}>
         <Sidebar />
-        <div className='overflow-y-auto h-[calc(100%)] px-[30px] w-full'>
+        <div className='container_pages h-[calc(100%)] px-[30px] w-full'>
           <Component {...pageProps} />
         </div>
       </main>

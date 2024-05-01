@@ -10,10 +10,10 @@ export default function Home() {
     <>
       <Heading size="title" className='text-center text-black mt-4'>. : {dict.page_experience.title} : .</Heading>
 
-      <div className='w-full mt-[60px] mx-auto'>
-        <div className='grid grid-cols-3 gap-x-5 gap-y-4'>
+      <div className='w-full mt-[60px] mx-auto pb-8'>
+        <div className='grid grid-cols-1 sm:grid-cols-3 gap-x-5 gap-y-9'>
           <div className='relative rounded-lg border border-1 px-7 py-4'>
-            <div className='absolute right-[25px] top-[-23px] rounded-full w-[45px] h-[45px] flex items-center justify-center bg-purple text-white text-sm'>
+            <div className='absolute right-[25px] top-[-25px] rounded-full w-[40px] h-[40px] flex items-center justify-center bg-purple text-white text-sm'>
               <label>PJ</label>
             </div>
             <h1 className='text-[15px]'>IETÉ</h1>
@@ -38,7 +38,7 @@ export default function Home() {
           </div>
 
           <div className='relative rounded-lg border border-1 px-7 py-4'>
-            <div className='absolute right-[25px] top-[-23px] rounded-full w-[45px] h-[45px] flex items-center bg-purple justify-center text-white text-sm'>
+            <div className='absolute right-[25px] top-[-25px] rounded-full w-[40px] h-[40px] flex items-center bg-purple justify-center text-white text-sm'>
               <label>PJ</label>
             </div>
 
@@ -59,7 +59,7 @@ export default function Home() {
           </div>
 
           <div className='relative rounded-lg border border-1 px-7 py-4'>
-            <div className='absolute right-[25px] top-[-23px] rounded-full w-[95px] h-[45px] flex items-center justify-center bg-orange text-white text-sm'>
+            <div className='absolute right-[25px] top-[-25px] rounded-full w-[90px] h-[40px] flex items-center justify-center bg-orange text-white text-sm'>
               <label>Freelancer</label>
             </div>
             <h1 className='text-[15px]'>Score Milk</h1>
