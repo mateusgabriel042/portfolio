@@ -36,10 +36,10 @@ export const enUS =  {
     years_of_experience: 'Years of experience',
     publications: 'Publications',
     texts: {
-      text_about:   'I\'m a full stack developer, with experience in developing web systems in PHP since 2019, I also develop '
-                  + 'responsive pages using React and Next. He has training in Systems Analysis and Development from Estácio and in IT Technician '
-                  + 'from IFRN Campus Macau. In addition, he has participated in several educational conferences, presenting projects created '
-                  + 'during the academic period.',
+      text_about:   'I\'m a full stack developer, with experience in developing web systems in PHP since 2019. Additionally, I develop responsive '
+                  + 'pages using React and Next. I have a degree in Systems Analysis and Development from Estácio, as well as a degree in IT '
+                  + 'Technician from IFRN Campus Macau. I also participated in several educational conferences, in which I presented projects '
+                  + 'created during the academic period.',
     }
   },
 

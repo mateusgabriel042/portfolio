@@ -36,10 +36,11 @@ export const ptBR =  {
     years_of_experience: 'Anos de experiência',
     publications: 'Publicações',
     texts: {
-      text_about:   'Sou um desenvolvedor full stack pleno, com experiência no desenvolvimento de sistemas web em PHP desde 2019, '
-                  + 'também desenvolve páginas responsivas utilizando React e Next. Possui formação em Análise e Desenvolvimento '
-                  + 'de Sistemas pela Estácio e em Técnico em Informática pelo IFRN Campus Macau. Além disso, já participou de vários '
-                  + 'congressos educacionais, apresentando projetos criados durante o período letivo.'
+      text_about:   'Sou um desenvolvedor full stack pleno, com experiência no desenvolvimento de sistemas web em PHP desde 2019. '
+                  + 'Além disso, desenvolvo páginas responsivas utilizando React e Next. Possuo formação em Análise e Desenvolvimento '
+                  + 'de Sistemas pela Estácio, bem como em Técnico em Informática pelo IFRN Campus Macau. Também participei de vários '
+                  + 'congressos educacionais, nos quais apresentei projetos criados durante o período letivo.',
+                  
     }
   },
 
