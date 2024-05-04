@@ -39,8 +39,8 @@ export default function Home() {
         </Heading>
 
         <div className='w-full flex justify-center gap-x-3 mt-12'>
-          <a href="#" className='px-7 py-1 rounded-full bg-blue text-white text-sm' target='_blank'>{dict.page_about.curriculum}</a>
-          <a href="#" className='px-7 py-1 rounded-full bg-linkedin text-white text-sm' target='_blank'>Linkedin</a>
+          <a href="https://docs.google.com/document/d/1o_ccDMUHTmElE-KDThLiSL_uiqIRZBI1dxdcGbMMyDQ/edit?usp=sharing" className='px-7 py-1 rounded-full bg-blue text-white text-sm' target='_blank'>{dict.page_about.curriculum}</a>
+          <a href="https://www.linkedin.com/in/mateus-gabriel-a64885144/" className='px-7 py-1 rounded-full bg-linkedin text-white text-sm' target='_blank'>Linkedin</a>
         </div>
 
         <div className='w-full flex justify-center items-center mt-14'>
