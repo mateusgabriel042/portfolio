@@ -6,7 +6,7 @@ export const ptBR =  {
 */
 
   sidebar: {
-    about: 'Sobre',
+    about: 'Sobre mim',
     portfolio: 'Portifólio',
     skills: 'Habilidades',
     experience: 'Experiência',

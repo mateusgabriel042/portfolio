@@ -27,7 +27,7 @@ export const enUS =  {
   */
 
   page_about: {
-    title: "About",
+    title: "About me",
     years: 'years',
     single: 'Single',
     curriculum: 'Curriculum',
