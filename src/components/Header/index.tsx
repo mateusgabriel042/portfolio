@@ -7,8 +7,8 @@ import { toggleSidebar } from '../Sidebar';
 
 export const Header = () => {
   return (
-    <div className={`${Styles.header} fixed bg-white flex gap-x-[30px] justify-between items-center top-0 left-0 w-full px-[5%] py-[20px]`}>
-      <div className="flex w-full bg-white h-full justify-between items-center px-[35px] py-[15px] rounded-lg shadow border border-1">
+    <div className={`${Styles.header} fixed bg-white flex gap-x-[30px] justify-center items-center top-0 left-0 w-full px-[5%] py-[20px]`}>
+      <div className="flex w-full max-w-[1250px] h-full justify-between items-center px-[35px] py-[15px] rounded-lg shadow border border-1">
         <div className='flex gap-x-[35px]'>
           <Image src="/assets/images/logo_mg.png" width={40} height={40} alt="" />
 

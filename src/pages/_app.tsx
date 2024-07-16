@@ -13,12 +13,16 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Header />
-      <main className={`main_pages`}>
-        <Sidebar />
-        <div className='container_pages h-[calc(100%)] px-[30px] w-full'>
-          <Component {...pageProps} />
-        </div>
-      </main>
+      
+        <main className={`main_pages`}>
+          <div className='flex w-full justify-center max-w-[1500px]'>
+            <Sidebar />
+            <div className='container_pages h-[calc(100%)] px-[30px] w-full'>
+              <Component {...pageProps} />
+            </div>
+          </div>
+        </main>
+      
     </>
   )
 }

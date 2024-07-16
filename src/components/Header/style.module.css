@@ -1,4 +1,7 @@
 /*.header {}*/
+.header {
+  z-index: 200 !important;
+}
 
 .button_toggle_sidebar {
   display:none;
@@ -24,7 +27,6 @@
 @media screen and (max-width: 550px) {
   .header {
     padding:0px;
-    z-index: 20;
   }
   .header > div {border-radius: 0px; border:none;}
   
@@ -48,6 +50,7 @@
 
 /* Estilos para telas com largura entre 501px e 900px */
 @media screen and (min-width: 551px) and (max-width: 900px) {
+
   .button_toggle_sidebar {
     display:block;
   } 
