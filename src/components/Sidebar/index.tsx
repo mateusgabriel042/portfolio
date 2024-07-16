@@ -28,7 +28,7 @@ export const Sidebar = () => {
 
 
   return (
-    <div className={`${Styles.area_sidebar} w-[30%] relative bg-red-300 border-r-gray-light border-r`} id='area_sidebar'>
+    <div className={`${Styles.area_sidebar} w-[30%] relative bg-white border-r-gray-light border-r`} id='area_sidebar'>
       <div className={`${Styles.sidebar}`} id='sidebar'>
         <div className={`${Styles.social_network_sidebar} flex justify-center w-full my-5 items-center`}>
           <SocialNetwork />
