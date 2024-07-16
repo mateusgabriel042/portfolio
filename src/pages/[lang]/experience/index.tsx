@@ -18,7 +18,7 @@ export default function Home() {
             </div>
             <h1 className='text-[15px]'>IETÉ</h1>
             <h3 className='text-[13px] font-bold text-blue'>Dev. Fullstack Pleno</h3>
-            <label className='text-black text-sm'>10/2021 - <span className='text-green'>{dict.page_experience.at_the_moment}</span></label>
+            <label className='text-black text-sm'>10/2021 - 06/2024</label>
 
             <h3 className='text-[13px] font-bold text-black my-2'>{dict.page_experience.responsibilities}</h3>
             <ul className='w-full text-xs'>
