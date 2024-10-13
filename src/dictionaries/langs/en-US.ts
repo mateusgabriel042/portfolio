@@ -33,6 +33,9 @@ export const enUS =  {
     curriculum: 'Curriculum',
     projects: 'Projects',
     certificates: 'Certificates',
+    experience: 'Experience',
+    seniority: 'Seniority',
+    analyst: 'Analyst',
     years_of_experience: 'Years of experience',
     publications: 'Publications',
     texts: {

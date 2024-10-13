@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <>
-      <Heading size="title" className='text-center text-black mt-4'>. : {dict.page_experience.title} : .</Heading>
+      <Heading size="title" className='text-center text-dark-gray mt-4'>{dict.page_experience.title}</Heading>
 
       <div className='w-full mt-[60px] mx-auto pb-8'>
         <div className='grid grid-cols-1 sm:grid-cols-3 gap-x-5 gap-y-9'>
@@ -59,8 +59,8 @@ export default function Home() {
           </div>
 
           <div className='relative rounded-lg border border-1 px-7 py-4'>
-            <div className='absolute right-[25px] top-[-25px] rounded-full w-[90px] h-[40px] flex items-center justify-center bg-orange text-white text-sm'>
-              <label>Freelancer</label>
+          <div className='absolute right-[25px] top-[-25px] rounded-full w-[40px] h-[40px] flex items-center bg-purple justify-center text-white text-sm'>
+              <label>PJ</label>
             </div>
             <h1 className='text-[15px]'>Score Milk</h1>
             <h3 className='text-[13px] font-bold text-blue'>Dev. Frontend Júnior</h3>
@@ -76,10 +76,6 @@ export default function Home() {
               <li>- Snack Prompts.</li>
             </ul>
           </div>
-        </div>
-
-        <div className='flex justify-center mt-8'>
-          <label className='bg-blue text-white text-sm rounded-full px-7 py-3'>#4 {dict.page_experience.texts.years_of_experience}</label>
         </div>
       </div>
     </>

@@ -1,10 +1,45 @@
+.list_portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.list_portfolio li {
+  border-radius: 15px;
+  width: 280px;
+  height: 250px;
+  background-color: #F8F8F8;
+  transform: rotate(-5deg);
+}
+
+.list_portfolio li > div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 20px;
+  border-radius: 15px;
+  width: 280px;
+  height: 250px;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
+  background-color: #FFFFFF;
+  transform: rotate(5deg);
+
+}
+
+
+
 .box_image_show {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
-  z-index: 40;
+  z-index: 240;
   top: -130px;
   left: -100vw;
   width: 100vw;
@@ -30,65 +65,3 @@
   right: 25px;
   color:#e21c1c;
 }
-
-.grid_portfolio {
-  display: grid;
-  grid-auto-flow: column; 
-  grid-template-columns: 180px 370px calc(100% - 180px - 370px - 50px);
-  grid-template-rows: 1fr;
-  gap:25px;
-  row-gap:25px;
-  grid-template-areas: "nav_projects slide_projects tachs_used_to_projects";
-}
-.nav_projects { grid-area: nav_projects; }
-.slide_projects { grid-area: slide_projects; }
-.tachs_used_to_projects { grid-area: tachs_used_to_projects;}
-
-
-/* Estilos para telas com largura até 500px */
-@media screen and (max-width: 550px) {
-  .grid_portfolio {
-    display: grid;
-    grid-auto-flow: column; 
-    grid-template-columns: 100%; 
-    grid-template-rows: 0.1fr 1fr 0.1fr;
-    gap:15px;
-    row-gap:25px;
-    grid-template-areas:
-      "nav_projects"
-      "slide_projects"
-      "tachs_used_to_projects";
-  }
-
-  .swiper_slide{
-    max-height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-/* Estilos para telas com largura entre 501px e 900px */
-@media screen and (min-width: 551px) and (max-width: 900px) {
-  .grid_portfolio {
-    display: grid;
-    grid-auto-flow: column; 
-    grid-template-columns: 100%; 
-    grid-template-rows: 0.1fr 1fr 0.1fr;
-    gap:15px;
-    row-gap:25px;
-    grid-template-areas:
-      "nav_projects"
-      "slide_projects"
-      "tachs_used_to_projects";
-  }
-  .swiper_slide{
-    max-height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-/* Estilos para telas com largura maior que 900px */
-@media screen and (min-width: 901px) {}

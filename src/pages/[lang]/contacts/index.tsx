@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <>
-      <Heading size="title" className='text-center text-black mt-4'>. : {dict.page_contacts.title} : .</Heading>
+      <Heading size="title" className='text-center text-dark-gray mt-4'>{dict.page_contacts.title}</Heading>
 
       <div className='w-full mt-[60px] mx-auto pb-8'>
         <div className='w-full'>

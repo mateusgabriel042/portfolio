@@ -1,0 +1,5 @@
+.experience_label {
+  background: rgb(93,95,239);
+  background: linear-gradient(34deg, rgba(93,95,239,1) 0%, rgba(186,51,181,1) 100%);
+  color: #ffffff;
+}

@@ -33,6 +33,9 @@ export const ptBR =  {
     curriculum: 'Currículo',
     projects: 'Projetos',
     certificates: 'Certificados',
+    experience: 'Experiência',
+    seniority: 'Senioridade',
+    analyst: 'Analista pleno',
     years_of_experience: 'Anos de experiência',
     publications: 'Publicações',
     texts: {

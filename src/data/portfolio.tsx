@@ -10,13 +10,13 @@ export const returnDataPortfolio = (dict: any) => {
       slides: ['simed_1.png', 'simed_2.png', 'simed_3.png', 'simed_4.png'],
       iconsSkills: [
         { icon: 'php', size: 30 },
-        { icon: 'laravel', size: 30 },
-        { icon: 'javascript', size: 30 },
-        { icon: 'react', size: 30 },
-        { icon: 'html5', size: 30 },
-        { icon: 'css3', size: 30 },
-        { icon: 'tailwindCss', size: 30 },
-        { icon: 'mysql', size: 30 }
+        { icon: 'laravel', size: 20 },
+        { icon: 'javascript', size: 25 },
+        { icon: 'react', size: 27 },
+        { icon: 'html5', size: 25 },
+        { icon: 'css3', size: 25 },
+        { icon: 'tailwindCss', size: 25 },
+        { icon: 'mysql', size: 25 }
       ],
       description: dict.texts.description_simed
     },
@@ -27,13 +27,13 @@ export const returnDataPortfolio = (dict: any) => {
       slides: ['sssystem_1.png'],
       iconsSkills: [
         { icon: 'php', size: 30 },
-        { icon: 'laravel', size: 30 },
-        { icon: 'javascript', size: 30 },
-        { icon: 'react', size: 30 },
-        { icon: 'html5', size: 30 },
-        { icon: 'css3', size: 30 },
-        { icon: 'tailwindCss', size: 30 },
-        { icon: 'mysql', size: 30 }
+        { icon: 'laravel', size: 20 },
+        { icon: 'react', size: 27 },
+        { icon: 'javascript', size: 25 },
+        { icon: 'tailwindCss', size: 25 },
+        { icon: 'html5', size: 25 },
+        { icon: 'css3', size: 25 },
+        { icon: 'mysql', size: 25 }
       ],
       description: dict.texts.description_sssystem
     },
@@ -44,13 +44,13 @@ export const returnDataPortfolio = (dict: any) => {
       slides: ['easit_1.png', 'easit_2.png', 'easit_3.png', 'easit_4.png'],
       iconsSkills: [
         { icon: 'php', size: 30 },
-        { icon: 'laravel', size: 30 },
-        { icon: 'javascript', size: 30 },
-        { icon: 'react', size: 30 },
-        { icon: 'html5', size: 30 },
-        { icon: 'css3', size: 30 },
-        { icon: 'tailwindCss', size: 30 },
-        { icon: 'mysql', size: 30 }
+        { icon: 'laravel', size: 20 },
+        { icon: 'javascript', size: 25 },
+        { icon: 'react', size: 27 },
+        { icon: 'html5', size: 25 },
+        { icon: 'css3', size: 25 },
+        { icon: 'tailwindCss', size: 25 },
+        { icon: 'mysql', size: 25 }
       ],
       description: dict.texts.description_easit
     },
@@ -60,10 +60,10 @@ export const returnDataPortfolio = (dict: any) => {
       dir: 'snack_prompts',
       slides: ['snack_prompts_1.png'],
       iconsSkills: [
-        { icon: 'vue', size: 45 },
-        { icon: 'html5', size: 30 },
-        { icon: 'css3', size: 30 },
-        { icon: 'tailwindCss', size: 30 },
+        { icon: 'vue', size: 25 },
+        { icon: 'html5', size: 25 },
+        { icon: 'css3', size: 25 },
+        { icon: 'tailwindCss', size: 25 },
       ],
       description: dict.texts.description_snack_prompts
     }

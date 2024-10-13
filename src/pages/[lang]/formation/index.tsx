@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <>
-      <Heading size="title" className='text-center text-black mt-4'>. : {dict.page_formation.title} : .</Heading>
+      <Heading size="title" className='text-center text-dark-gray mt-4'>{dict.page_formation.title}</Heading>
 
       <div className='w-full mt-[70px] mx-auto pb-8'>
         <div className='flex flex-wrap gap-y-9 w-[80%] mx-auto justify-center gap-x-5'>

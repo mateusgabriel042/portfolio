@@ -38,6 +38,12 @@
   }
 }
 
+.box_shadow_sm {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
+}
+
 .link_social_network {width:25px; height:25px; border-radius:100%; display:flex; justify-content:center; align-items:center; transition:0.5s; gap:5px; background-color:#ffffff; color:#878787; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);}
 .link_social_network span {font-size:13px; display: none;}
 .facebook_link_inside {width:100px; border-radius:7px; background-color:#1559a1; color:#ffffff; transition:0.5s;}

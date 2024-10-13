@@ -11,6 +11,8 @@ import Styles from './style.module.css'
 import { IoCloseCircle } from "react-icons/io5";
 import { getDictionaryUseClient } from '@/dictionaries/dictionary-use-client'
 import { useRouter } from 'next/router';
+import { FaRegImages } from "react-icons/fa6";
+import Link from 'next/link';
 
 export default function Home() {
   const { lang }: any = useRouter().query;
@@ -41,8 +43,35 @@ export default function Home() {
 
   return (
     <>
-      <Heading size="title" className='text-center text-black mt-4'>. : {dict.page_portfolio.title} : .</Heading>
+      <Heading size="title" className='text-center text-dark-gray mt-4'>{dict.page_portfolio.title}</Heading>
 
+      <ul className={Styles.list_portfolio}>
+        {dataPortfolio.map((item: any, index: any) => (
+          <li key={index}>
+            <div className='relative'>
+              <Heading size="subtitle" className='w-full text-dark-gray'>{item.projectName}</Heading>
+              
+              {/*<button onClick={() => toggleBoxViewImage()} className='absolute flex justify-center items-center w-[35px] h-[35px] right-[10px] top-[10px] bg-gray-light text-dark-gray rounded-full'>
+                <FaRegImages size={20} />
+              </button>*/}
+
+              <div className='w-full flex items-center flex-wrap gap-x-[10px] text-dark-gray'>
+                {item.iconsSkills.map((icon: any, index: any) => (
+                  <SkillIconSelector iconName={icon.icon} size={icon.size} key={index}/>
+                ))}
+              </div>
+
+              <Heading size="text" className='text-dark-gray font-light'>
+              {item.description}
+              </Heading>
+
+              <Link href="#">
+                <Heading size="text" className='text-green'>Visitar</Heading>
+              </Link>
+            </div>
+          </li>
+        ))}
+      </ul>
 
       <div className={`${Styles.box_image_show}`} id='box_image_show'>
         <div id='sub_box_image_show'>
@@ -50,7 +79,7 @@ export default function Home() {
             <IoCloseCircle size={40} />
           </button>
 
-          {imageSelected !== '' ?
+            {imageSelected !== '' ?
 
             <Image
               src={imageSelected}
@@ -59,75 +88,6 @@ export default function Home() {
               height={650}
             /> : <></>
           }
-        </div>
-      </div>
-
-      <div className='w-full mt-9 mx-auto pb-8'>
-        <div className={`${Styles.grid_portfolio} relative justify-between`}>
-          <div className={`${Styles.nav_projects}`}>
-            <Heading size="subtitle" className='mb-3 text-justify text-dark-gray'>
-              {dict.page_portfolio.projects}:
-            </Heading>
-
-            <div className={`grid grid-cols-2 md:grid-cols-1 gap-3`}>
-              {dataPortfolio.map((item: any, index: any) => (
-                <button
-                  className={`px-4 py-2 text-sm ${index === currentPortfolio ? 'border-transparent bg-blue text-white' : 'border border-1 text-gray-500'}`}
-                  key={index}
-                  onClick={() => setCurrentPortfolio(index)}
-                >
-                  {item.projectName}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          <div className={`${Styles.slide_projects}`}>
-            <Heading size="subtitle" className='mb-3 text-justify text-dark-gray'>
-              {returnDataPortfolio(dict.page_portfolio)[currentPortfolio].projectName}:
-            </Heading>
-
-            <div className={`${Styles.area_slide} w-full bg-gray-100`}>
-              <Swiper
-                spaceBetween={30}
-                pagination={{
-                  clickable: true,
-                }}
-                modules={[Pagination]}
-                className="mySwiper h-full border border-1"
-              >
-                {dataPortfolio[currentPortfolio].slides.map((item: string, index: any) => (
-                  <SwiperSlide key={index} className={`${Styles.swiper_slide} max-h-[220px] h-full`}>
-                    <Image
-                      src={`/assets/images/portfolio/${dataPortfolio[currentPortfolio].dir}/${item}`}
-                      className='object-cover w-full cursor-pointer transition-transform transform hover:scale-110'
-                      width={300}
-                      height={270}
-                      onClick={() => viewImageInModal(`/assets/images/portfolio/${dataPortfolio[currentPortfolio].dir}/${item}`)}
-                      alt='img-portfolio'
-
-                    />
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            </div>
-
-            <Heading size="paragraph" className='mt-5 text-justify'>
-              {dataPortfolio[currentPortfolio].description}
-            </Heading>
-          </div>
-
-          <div className={`${Styles.tachs_used_to_projects} flex items-center`}>
-            
-            <div className='flex w-full justify-center items-center h-auto gap-5 flex-wrap'>
-              
-              {dataPortfolio[currentPortfolio].iconsSkills.map((item: any, index: any) => (
-                <div className='w-[50px] h-[50px] rounded-full border border-1 shadow flex justify-center items-center text-gray-700' key={index}>
-                  <SkillIconSelector iconName={item.icon} size={item.size} />
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
       </div>
     </>

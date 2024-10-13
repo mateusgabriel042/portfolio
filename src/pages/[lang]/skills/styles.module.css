@@ -1,0 +1,42 @@
+.bar_skill{
+  border-radius: 100px;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08);
+}
+
+.bar_skill div {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  padding:5px 15px;
+  border-radius: 100px;
+  background: rgb(93,95,239);
+  background: linear-gradient(34deg, rgba(93,95,239,1) 0%, rgba(186,51,181,1) 100%);
+  color: #ffffff;
+}
+
+.bar_skill div.progress_30 {animation: fill_progress_30 0.8s ease-in-out forwards;}
+.bar_skill div.progress_40 {animation: fill_progress_40 0.8s ease-in-out forwards;}
+.bar_skill div.progress_50 {animation: fill_progress_50 0.8s ease-in-out forwards;}
+.bar_skill div.progress_60 {animation: fill_progress_60 0.8s ease-in-out forwards;}
+.bar_skill div.progress_70 {animation: fill_progress_70 0.8s ease-in-out forwards;}
+.bar_skill div.progress_80 {animation: fill_progress_80 0.8s ease-in-out forwards;}
+.bar_skill div.progress_90 {animation: fill_progress_90 0.8s ease-in-out forwards;}
+.bar_skill div.progress_100 {animation: fill_progress_100 0.8s ease-in-out forwards;}
+
+
+
+.bar_skill div span {
+  font-size: 12px;
+}
+
+@keyframes fill_progress_30 { from { width: 30%; } to { width: 30%; } }
+@keyframes fill_progress_40 { from { width: 30%; } to { width: 40%; } }
+@keyframes fill_progress_50 { from { width: 30%; } to { width: 50%; } }
+@keyframes fill_progress_60 { from { width: 30%; } to { width: 60%; } }
+@keyframes fill_progress_70 { from { width: 30%; } to { width: 70%; } }
+@keyframes fill_progress_80 { from { width: 30%; } to { width: 80%; } }
+@keyframes fill_progress_90 { from { width: 30%; } to { width: 90%; } }
+@keyframes fill_progress_100 { from { width: 30%; } to { width: 100%; } }

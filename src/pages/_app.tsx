@@ -14,14 +14,14 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <Header />
       
-        <main className={`main_pages`}>
-          <div className='flex w-full justify-center max-w-[1500px]'>
-            <Sidebar />
-            <div className='container_pages h-[calc(100%)] px-[30px] w-full'>
-              <Component {...pageProps} />
-            </div>
+      <main className={`main_pages`}>
+        <div className='flex w-full justify-center max-w-[1500px]'>
+          <Sidebar />
+          <div className='container_pages h-[calc(100%)] px-[30px] w-full'>
+            <Component {...pageProps} />
           </div>
-        </main>
+        </div>
+      </main>
       
     </>
   )
