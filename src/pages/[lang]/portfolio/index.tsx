@@ -65,7 +65,7 @@ export default function Home() {
               {item.description}
               </Heading>
 
-              <Link href="#">
+              <Link href={item.link} target='blank'>
                 <Heading size="text" className='text-green'>Visitar</Heading>
               </Link>
             </div>
