@@ -81,26 +81,29 @@ export const returnDataPortfolio = (dict: any) => {
       slides: ['snack_prompts_1.png'],
       iconsSkills: [
         { icon: 'vue', size: 25 },
-        { icon: 'html5', size: 25 },
-        { icon: 'css3', size: 25 },
         { icon: 'tailwindCss', size: 25 },
+        { icon: 'html5', size: 25 },
+        { icon: 'css3', size: 25 }
       ],
       description: dict.texts.description_snack_prompts,
       link: 'https://snackprompt.com/',
     },
 
     {
-      projectName: 'CAWPTech',
+      projectName: 'Maritimos',
       dir: 'snack_prompts',
       slides: ['snack_prompts_1.png'],
       iconsSkills: [
-        { icon: 'react', size: 25 },
+        { icon: 'php', size: 30 },
+        { icon: 'laravel', size: 20 },
+        { icon: 'javascript', size: 25 },
         { icon: 'html5', size: 25 },
         { icon: 'css3', size: 25 },
         { icon: 'tailwindCss', size: 25 },
+        { icon: 'mysql', size: 25 }
       ],
       description: dict.texts.description_snack_prompts,
-      link: 'https://cawptech.com/',
+      link: 'https://maritimos.com.br/',
     }
   ]
 }

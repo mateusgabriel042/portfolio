@@ -26,19 +26,20 @@ export default function Home() {
       <div className='w-full mx-auto mt-9 pb-8'>
         <div className='w-full grid grid-cols-1 sm:grid-cols-2 gap-y-[25px] gap-x-5 mt-8'>
           <BarSkill percentage={90} skill="PHP" />
-          <BarSkill percentage={100} skill="Laravel" />
+          <BarSkill percentage={100} skill="Laravel 5.6 ao 12" />
           <BarSkill percentage={90} skill="Javascript" />
-          <BarSkill percentage={90} skill="React/Next" />
+          <BarSkill percentage={90} skill="React.js / Next.js" />
           <BarSkill percentage={70} skill="Vue.js" />
           <BarSkill percentage={100} skill="HTML5 / CSS3" />
           <BarSkill percentage={100} skill="Bootstrap 5" />
           <BarSkill percentage={90} skill="Tailwind" />
-          <BarSkill percentage={90} skill="MySQL" />
-          <BarSkill percentage={80} skill="PostgreeSQL" />
-          <BarSkill percentage={70} skill="Git / GitHub / GitBucket" />
-          <BarSkill percentage={80} skill="SOLID" />
-          <BarSkill percentage={80} skill="API RESTFul" />
+          <BarSkill percentage={100} skill="MySQL" />
+          <BarSkill percentage={90} skill="PostgreeSQL" />
+          <BarSkill percentage={90} skill="Git / GitHub / GitBucket" />
+          <BarSkill percentage={100} skill="SOLID" />
+          <BarSkill percentage={100} skill="API RESTFul" />
           <BarSkill percentage={60} skill="Figma" />
+          <BarSkill percentage={70} skill="N8N" />
         </div>
       </div>
     </>

@@ -21,7 +21,7 @@ export default function Home() {
             <li className='flex justify-center'>
               <div className='flex items-center gap-x-2'>
                 <h3 className='font-bold text-dark-gray'>WhatsApp:</h3>
-                <label className=" text-dark-gray">(84) 99993 - 2183</label>
+                <label className=" text-dark-gray">(84) 98625 - 4994</label>
               </div>
             </li>
 

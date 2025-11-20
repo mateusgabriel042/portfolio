@@ -97,7 +97,7 @@ export const Sidebar = () => {
 
         <div className="w-full flex flex-col pl-14 mt-10 gap-y-1">
           <label className='text-dark-gray text-xs'>{dict.sidebar.texts.built_with_nextjs}</label>
-          <label className='text-dark-gray text-xs'>{dict.sidebar.texts.last_updated}: 13/10/2024</label>
+          <label className='text-dark-gray text-xs'>{dict.sidebar.texts.last_updated}: 19/11/2025</label>
         </div>
       </div>
     </div>

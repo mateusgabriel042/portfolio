@@ -18,7 +18,7 @@ export default function Home() {
         <div className='w-full flex flex-wrap justify-center gap-4'>
           <div className='flex text-dark-gray items-center gap-x-2 box_shadow_sm rounded-full px-[15px] py-[5px]'>
             <FaBirthdayCake size="15" className="mt-[-3px]"/>
-            <label className='text-sm font-light'>25 {dict.page_about.years}</label>
+            <label className='text-sm font-light'>26 {dict.page_about.years}</label>
           </div>
           <div className='flex text-dark-gray items-center gap-x-2 box_shadow_sm rounded-full px-[15px] py-[5px]'>
             <FaMapMarkerAlt size="15" className="mt-[-3px]" />
@@ -43,7 +43,7 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/mateus-gabriel-a64885144/" className='px-7 py-1 rounded-full bg-linkedin text-white text-sm' target='_blank'>Linkedin</a>
         </div>*/}
 
-        <div className='w-full flex justify-center gap-x-[25px] items-center mt-14'>
+        <div className='w-full flex flex-wrap justify-center gap-[25px] items-center mt-14'>
           <div className='flex gap-x-[6px] items-center justify-center box_shadow_sm font-light rounded-full px-[25px] py-[9px]'>
             <label className='text-sm text-dark-gray'>{dict.page_about.projects}:</label>
             <span className='text-sm text-dark-gray leading-tight'>8</span>
@@ -51,7 +51,7 @@ export default function Home() {
 
           <div className={`flex gap-x-[6px] items-center justify-center box_shadow_sm font-light rounded-full px-[25px] py-[9px] ${Styles.experience_label}`}>
             <label className='text-sm'>{dict.page_about.experience}:</label>
-            <span className='text-sm leading-tight'>5 {dict.page_about.years}</span>
+            <span className='text-sm leading-tight'>6 {dict.page_about.years}</span>
           </div>
 
           <div className='flex gap-x-[6px] items-center justify-center box_shadow_sm font-light rounded-full px-[25px] py-[9px]'>

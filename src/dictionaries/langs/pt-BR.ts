@@ -41,7 +41,7 @@ export const ptBR =  {
     texts: {
       text_about:   'Sou um desenvolvedor full stack pleno, com experiência no desenvolvimento de sistemas web em PHP desde 2019. '
                   + 'Além disso, desenvolvo páginas responsivas utilizando React e Next. Possuo formação em Análise e Desenvolvimento '
-                  + 'de Sistemas pela Estácio, bem como em Técnico em Informática pelo IFRN Campus Macau. Também participei de vários '
+                  + 'de Sistemas pela Estácio, bem como em Técnico em Informática pelo IFRN. Também participei de vários '
                   + 'congressos educacionais, nos quais apresentei projetos criados durante o período letivo.',
                   
     }

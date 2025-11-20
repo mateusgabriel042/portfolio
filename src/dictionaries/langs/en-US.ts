@@ -41,7 +41,7 @@ export const enUS =  {
     texts: {
       text_about:   'I\'m a full stack developer, with experience in developing web systems in PHP since 2019. Additionally, I develop responsive '
                   + 'pages using React and Next. I have a degree in Systems Analysis and Development from Estácio, as well as a degree in IT '
-                  + 'Technician from IFRN Campus Macau. I also participated in several educational conferences, in which I presented projects '
+                  + 'Technician from IFRN. I also participated in several educational conferences, in which I presented projects '
                   + 'created during the academic period.',
     }
   },
